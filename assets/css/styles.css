@@ -36,6 +36,20 @@
   --z-fixed: 100;
   --z-modal: 1000;
 }
+.home__social-icon {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Gira ao passar o mouse */
+.home__social-icon:hover {
+    transform: rotate(360deg);
+}
+
+/* Gira ao clicar */
+.home__social-icon:active {
+    transform: rotate(720deg);
+}
+
 
 /* Adicione estilos para os ícones sociais */
         .home__social {
