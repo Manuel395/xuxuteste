@@ -4,12 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <title>Xuxu bower</title>
+    <title>Xuxu Bower</title>
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="assets/img/favicon.png">
-    <style>
-        
-    </style>
 </head>
 <body>
     <!-- OVERLAY -->
@@ -21,16 +18,16 @@
     <header class="l-header">
         <nav class="nav bd-grid">
             <div>
-                <a href="#" class="nav__logo">xuxu bower <!-- METI O LOGO DE VERIFICAÇÃO AQUI --></a>
+                <a href="#" class="nav__logo">Xuxu Bower <!-- METI O LOGO DE VERIFICAÇÃO AQUI --></a>
             </div>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#" class="nav__link">Pagina principal</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Página Principal</a></li>
                     <li class="nav__item"><a href="#" class="nav__link">Sobre</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Musicas</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Músicas</a></li>
                     <li class="nav__item"><a href="#" class="nav__link">Eventos</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Contacto</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contato</a></li>
                 </ul>
             </div>
 
@@ -45,26 +42,26 @@
         <div class="home">
             <div class="home__information">
                 <span class="home__pressent anime-text"></span>
-                <h1 class="home__title anime-text">Xuxu bower</h1>
-                <span class="home__skill anime-text">Musico e compositor</span>
+                <h1 class="home__title anime-text">Xuxu Bower</h1>
+                <span class="home__skill anime-text">Músico e Compositor</span>
                 
                 <div>
-                    <a href="#" class="home__button anime-text">
-                    SABER MAIS</a>
+                    <a href="#" class="home__button anime-text">SABER MAIS</a>
                 </div>
             </div>
 
             <div class="home__img">
-                <img src="assets/img/img.jpg" alt="">
+                <img src="assets/img/img.jpg" alt="Xuxu Bower">
             </div>
             
+            <!-- Redes Sociais -->
             <div class="home__social">
-                <img src="assets/img/spotify.png" alt="Facebook" class="home__social-icon">
-                <img src="assets/img/applemusic.png" alt="Instagram" class="home__social-icon">
-                <img src="assets/img/youtube.png" alt="Twitter" class="home__social-icon">
-                <img src="assets/img/instagram.png" alt="LinkedIn" class="home__social-icon">
-                <img src="assets/img/facebook.png" alt="GitHub" class="home__social-icon">
-                <img src="assets/img/x.png" alt="YouTube" class="home__social-icon">
+                <img src="assets/img/spotify.png" alt="Spotify" class="home__social-icon" onclick="openLink('spotify')">
+                <img src="assets/img/applemusic.png" alt="Apple Music" class="home__social-icon" onclick="openLink('applemusic')">
+                <img src="assets/img/youtube.png" alt="YouTube" class="home__social-icon" onclick="openLink('youtube')">
+                <img src="assets/img/instagram.png" alt="Instagram" class="home__social-icon" onclick="openLink('instagram')">
+                <img src="assets/img/facebook.png" alt="Facebook" class="home__social-icon" onclick="openLink('facebook')">
+                <img src="assets/img/x.png" alt="Twitter" class="home__social-icon" onclick="openLink('twitter')">
             </div>
 
         </div>
@@ -73,9 +70,12 @@
     <!-- GSAP -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
 
-    <!-- MAIN -->
+    <!-- JavaScript Principal -->
     <script src="assets/js/main.js"></script>
-    
+
+    <!-- JavaScript para Social Links -->
+    <script src="assets/js/social-links.js"></script>
+
     <!-- ICONS -->
     <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
 </body>
